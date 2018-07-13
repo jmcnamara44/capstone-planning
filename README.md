@@ -15,6 +15,8 @@ _Once locations are entered, a location halfway should be generated._
 _The meeting location should give directions to reach it for each starting location._
 _Attractions close to the meeting location should be given._
 _Users can filter and sort the attractions based on their interests._
+_More than 2 starting locations can be entered to find the equidistant meeting location for._
+_Users can change the type of transportation they will be taking to the meeting point._
 
 ## Setup/Installation Requirements
 
