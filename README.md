@@ -6,11 +6,15 @@
 
 ## Description
 
-_This project will build plan the layout for my capstone project.  At the moment my capstone ideas has not been finalized so working on determining that. From there this application will build a static model of the site and will identify where state will live. As the capstone project idea is finalized, this section will be updated._
+_This project will build plan the layout for my capstone project.  Planned capstone project is a website/app that takes 2 locations and finds a spot somewhere in the middle for them to meet. Middle points can be filtered and sorted by type of activity that is in between. This project will build a static model of the site and will identify where state will live. Once the capstone project idea is finalized, this section will be updated._
 
 ## Project Specs
 
-_._
+_User should be able to enter 2 locations they are searching for and have the api locate them._
+_Once locations are entered, a location halfway should be generated._
+_The meeting location should give directions to reach it for each starting location._
+_Attractions close to the meeting location should be given._
+_Users can filter and sort the attractions based on their interests._
 
 ## Setup/Installation Requirements
 
