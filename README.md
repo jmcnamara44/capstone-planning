@@ -17,6 +17,10 @@ _Attractions close to the meeting location should be given._
 _Users can filter and sort the attractions based on their interests._
 _More than 2 starting locations can be entered to find the equidistant meeting location for._
 _Users can change the type of transportation they will be taking to the meeting point._
+_User can sign in and mark when locations they have met at and rank them._
+_Users can keep their rankings private or share them publicly._
+_Users can look back at their meeting locations history._
+_Search results can be tailored to a user's profile based on their visited history and rankings._
 
 ## Setup/Installation Requirements
 
