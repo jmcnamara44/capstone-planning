@@ -8,6 +8,10 @@
 
 _This project will build plan the layout for my capstone project.  Planned capstone project is a website/app that takes 2 locations and finds a spot somewhere in the middle for them to meet. Middle points can be filtered and sorted by type of activity that is in between. This project will build a static model of the site and will identify where state will live. Once the capstone project idea is finalized, this section will be updated._
 
+## Planned Component Structure
+
+![picture](src/assets/images/component-tree.png)
+
 ## Project Specs
 
 _User should be able to enter 2 locations they are searching for and have the api locate them._
