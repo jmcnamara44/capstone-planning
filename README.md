@@ -38,6 +38,9 @@ _React_
 _Redux_
 _CSS_
 _HTML_
+_Google Maps API_
+_Google Places API_
+_Google Routes API_
 
 ### License
 
