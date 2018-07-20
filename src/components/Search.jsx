@@ -4,11 +4,17 @@ function Search(){
   let _address1 = null;
   let _address2 = null;
 
-
+  function handleDirectionsSearch(event) {
+    event.preventDefault();
+    console.log(_address1.value);
+    console.log(_address2.value);
+    _address1.value = '';
+    _address2.value = '';
+  }
 
   return (
     <div>
-      <form>
+      <form onSubmit={handleDirectionsSearch}>
         <p>Enter your starting address</p>
         <input
           type='text'
