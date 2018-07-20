@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function Search(){
+function Search(props){
   let _address1 = null;
   let _address2 = null;
 
@@ -8,6 +9,7 @@ function Search(){
     event.preventDefault();
     console.log(_address1.value);
     console.log(_address2.value);
+    props.onUpdatingSearchAddress(_address1.value, _address2.value);
     _address1.value = '';
     _address2.value = '';
   }
@@ -33,5 +35,9 @@ function Search(){
     </div>
   );
 }
+
+Search.propTypes = {
+  onUpdatingSearchAddress: PropTypes.func
+};
 
 export default Search;
