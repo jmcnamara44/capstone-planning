@@ -27,7 +27,7 @@ function Search(props){
         <input
           type='text'
           id='address2'
-          placeholder='400 SW 6th Ave #800, Portland, OR'
+          placeholder='400 SW 6th Ave, Portland, OR'
           ref={(input) => {_address2 = input;}}/>
         <br/>
         <button type='submit'>GO!</button>

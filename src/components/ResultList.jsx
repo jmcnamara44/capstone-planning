@@ -1,13 +1,21 @@
 import React from 'react';
 import Result from './Result';
+import PropTypes from 'prop-types';
+import PointsOfInterest from './PointsOfInterest';
 
-function ResultList(){
+function ResultList(props){
   return (
     <div>
-      <Result address1='600 1st Ave, Seattle, WA'
-        address2='400 SW 6th Ave, Portland, OR'/>
+      <Result address1={props.address1}
+        address2={props.address2} />
+      <PointsOfInterest />
     </div>
   );
 }
+
+ResultList.propTypes = {
+  address1: PropTypes.string,
+  address2: PropTypes.string
+};
 
 export default ResultList;

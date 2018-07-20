@@ -33,7 +33,7 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact path='/' render={()=><Search onUpdatingSearchAddress={this.handleUpdatingSearchAddresses} />} />
-          <Route path='/results' render={()=><ResultList />} />
+          <Route path='/results' render={()=><ResultList address1={this.state.address1} address2={this.state.address2} />} />
           <Route path='/user' render={()=><UserPage />} />
         </Switch>
       </div>
