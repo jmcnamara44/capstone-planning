@@ -6,22 +6,19 @@ function Result(props){
   const globalComma = /,/g;
   let address1Search =  props.address1.replace(globalSpace, '+');
   let address2Search = props.address2.replace(globalSpace, '+');
-  address1Search =  address1Search.replace(globalComma, '');
-  address2Search = address2Search.replace(globalComma, '');
+  let address1Parsed =  address1Search.replace(globalComma, '');
+  let address2Parsed = address2Search.replace(globalComma, '');
+  let address1Directions = 'https://www.google.com/maps/dir/' + address1Parsed + '/' + address2Parsed;
+  let address2Directions = 'https://www.google.com/maps/dir/' + address2Parsed + '/' + address1Parsed;
+
+
   console.log(address1Search);
   console.log(address2Search);
 
-  function handleTrimAddress() {
-    address1Search = props.address1.replace(' ', '+');
-    address2Search = props.address2.replace(' ', '+');
-  }
-
-
-
   return (
     <div>
-      <p><a href='https://www.google.com/maps' target='_blank'>Click here</a> to see directions from {props.address1}</p>
-      <p><a href='https://www.google.com/maps' target='_blank'>Click here</a> to see directions from {props.address2}</p>
+      <p><a href={address1Directions} target='_blank'>Click here</a> to see directions from {props.address1}</p>
+      <p><a href={address2Directions} target='_blank'>Click here</a> to see directions from {props.address2}</p>
     </div>
   );
 }
