@@ -1,6 +1,11 @@
 import React from 'react';
 
 function Search(){
+  let _address1 = null;
+  let _address2 = null;
+
+  
+
   return (
     <div>
       <form>
@@ -16,6 +21,7 @@ function Search(){
           id='address2'
           placeholder='456 Fake St. Somewhere, WA'
           ref={(input) => {_address2 = input;}}/>
+        <br/>
         <button type='submit'>GO!</button>
       </form>
     </div>
