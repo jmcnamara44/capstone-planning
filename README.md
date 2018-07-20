@@ -7,6 +7,24 @@
 ## Description
 
 _This project will build plan the layout for my capstone project.  Planned capstone project is a website/app that takes 2 locations and finds a spot somewhere in the middle for them to meet. Middle points can be filtered and sorted by type of activity that is in between. This project will build a static model of the site and will identify where state will live. Once the capstone project idea is finalized, this section will be updated._
+_Project’s Purpose or Goal: Project will allow users to search for attractions or things to do that are located halfway, or close to halfway between 2 geographic locations.  Halfway is measured in time of travel, not miles._
+
+_List the absolute minimum features the project requires to meet this purpose or goal:_
+_-Allow 2 users to authenticate their locations._
+_-Show driving directions for each user to reach a spot close to equidistant from both starting locations._
+_-Provide a list of suggestions for things to do at or close to the meeting spot._
+
+_What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific._
+_-Google Maps API_
+_-Google Places API_
+_-Google Routes API_
+_-React_
+_-Redux_
+
+_If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific._
+_-Allow users to change their mode of travel to the meeting location._
+_-Allow users to filter and sort their list of results by their specific interests._
+_-Allow for multiple starting locations to be used if more than 2 people are meeting._
 
 ## Planned Component Structure
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
-import { Switch } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import Search from './Search';
 
 function App(){
   return (
