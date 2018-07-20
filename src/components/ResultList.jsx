@@ -8,7 +8,7 @@ function ResultList(props){
     <div>
       <Result address1={props.address1}
         address2={props.address2} />
-      <PointsOfInterest />
+      <PointsOfInterest location={props.address2} />
     </div>
   );
 }
