@@ -1,3 +1,3 @@
 const googleApi = {
-  apiKey: ''
+  apiKey: '';
 }
