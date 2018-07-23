@@ -1,4 +1,4 @@
 .DS_STORE
 node_modules
 build
-src/constants/apiKey.js
+src/constants/api-keys.js
