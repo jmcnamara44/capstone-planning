@@ -11,8 +11,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      address1: null,
-      address2: null
+      address1: '',
+      address2: ''
     };
     this.handleUpdatingSearchAddresses = this.handleUpdatingSearchAddresses.bind(this);
   }
@@ -20,12 +20,8 @@ class App extends React.Component {
   handleUpdatingSearchAddresses(firstAddress, secondAddress){
     var newAddress1 = firstAddress;
     var newAddress2 = secondAddress;
-    console.log(newAddress1);
-    console.log(newAddress2);
     this.setState({address1: newAddress1});
     this.setState({address2: newAddress2});
-    console.log(this.state.address1);
-    console.log(this.state.address2);
   }
 
   render(){

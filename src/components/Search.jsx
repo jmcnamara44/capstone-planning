@@ -7,8 +7,6 @@ function Search(props){
 
   function handleDirectionsSearch(event) {
     event.preventDefault();
-    console.log(_address1.value);
-    console.log(_address2.value);
     props.onUpdatingSearchAddress(_address1.value, _address2.value);
     _address1.value = '';
     _address2.value = '';

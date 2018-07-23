@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header(){
   var styledHeader = {
-    color: 'red',
-    fontFamily: 'actor'
+    color: 'red'
   };
 
   return (
