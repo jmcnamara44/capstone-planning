@@ -11,14 +11,10 @@ function Result(props){
   let address1Directions = 'https://www.google.com/maps/dir/' + address1Parsed + '/' + address2Parsed;
   let address2Directions = 'https://www.google.com/maps/dir/' + address2Parsed + '/' + address1Parsed;
 
-
-  console.log(address1Search);
-  console.log(address2Search);
-
   return (
     <div>
-      <p><a href={address1Directions} target='_blank'>Click here</a> to see directions from {props.address1}</p>
-      <p><a href={address2Directions} target='_blank'>Click here</a> to see directions from {props.address2}</p>
+      <p><a href={address1Directions} target='_blank'>Click here</a> to see directions from {props.address1} to {props.address2}.</p>
+      <p><a href={address2Directions} target='_blank'>Click here</a> to see directions from {props.address2} to {props.address1}.</p>
     </div>
   );
 }

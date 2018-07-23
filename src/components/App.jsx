@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Search from './Search';
 import ResultList from './ResultList';
 import UserPage from './UserPage';
+import Error404 from './Error404';
 
 class App extends React.Component {
 
@@ -35,6 +36,7 @@ class App extends React.Component {
           <Route exact path='/' render={()=><Search onUpdatingSearchAddress={this.handleUpdatingSearchAddresses} />} />
           <Route path='/results' render={()=><ResultList address1={this.state.address1} address2={this.state.address2} />} />
           <Route path='/user' render={()=><UserPage />} />
+          <Route component={Error404} />
         </Switch>
       </div>
     );
